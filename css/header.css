@@ -118,12 +118,3 @@ text-align: right;
 #flag img:hover {
     cursor: pointer;
 }
-#main {
-    background-image: url(../img/footer/header-footer.png);
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    margin: 0 auto !important;
-    padding: 90px 110px !important;
-    z-index: 2;
-    min-height: 475px;
-}
