@@ -1,0 +1,95 @@
+#main {
+    background-image: url(img/body.JPG);
+    background-attachment: fixed;
+    margin: 90px 110px;
+    z-index: 2;
+}
+#body_content {
+    width: 100%;
+    margin: auto;
+}
+#body_content #intro_dialog {
+    display: flex ;
+    margin-top: 70px;
+}
+#intro_dialog .slidecaption {
+    background-color: white;
+    width: 45%;
+    margin-left: 100px;
+    padding: 15px;
+    border: 1px solid ;
+    border-radius: 10px;
+    height: 202px;
+}
+#intro_dialog .slidecaption img {
+    width: 100%;
+    height: auto;
+}
+#intro_dialog .content_dialog {
+    width: 50%;
+    display: flex;
+}
+.content_dialog .main_content {
+    background-color: white;
+    border: 1px solid #F6F6F6;
+    padding: 15px;
+    position: relative;
+}
+.content_dialog .arrow {
+    border-color: transparent white;
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    height: 0px;
+    position: relative;
+    top: 80px;
+}
+.content_dialog .main_content .title_dialog {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: comic san ms;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.content_dialog .main_content .description_dialog {
+    width: 60%;
+    margin-top: 35px;
+    font-size: 13px;
+}
+.content_dialog .main_content .button_our_food {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #EF6E1D;
+    text-decoration: none;
+    border: 5px;
+    position: relative;
+    top: 20px;
+}
+.content_dialog .main_content .button_our_food:hover {
+    cursor: pointer;
+}
+.content_dialog .main_content img {
+    position: relative;
+    top: 15px;
+    right: 15px;
+    width: 155px;
+}
+#grid_container #slide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+#grid_container ul li{
+    width: 23%;
+    margin: 10px 10px;
+
+}
+#grid_container ul li img{
+    width: 100%;
+    height: 100px;
+}
+
+
